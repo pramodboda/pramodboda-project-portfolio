@@ -39,8 +39,8 @@ function App() {
       loading ?  (<div className="pramodize-loading"><PuffLoader color={color} loading={loading} css={override} size={50} /></div>) :
       <Router>
           <Switch>
-          {/* <Route path='/' exact component={HomePage} /> */}
-          <div><HomePage></HomePage></div>
+          <Route exact path='/' component={HomePage} />
+          {/* <div><HomePage /></div> */}
           </Switch>
     </Router>
 
