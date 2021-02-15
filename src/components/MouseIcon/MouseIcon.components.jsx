@@ -1,9 +1,15 @@
 import React from 'react';
 
-import {CgMouse} from 'react-icons/cg';
+import {ScrollDownIcon, MouseBody, ScrollerPoint} from './MouseIcon.styles';
 
 const MouseIcon = () => (
-    <CgMouse></CgMouse>
+    
+
+    <ScrollDownIcon>
+        <MouseBody>
+            <ScrollerPoint></ScrollerPoint>
+        </MouseBody>
+    </ScrollDownIcon>
 );
 
 export default MouseIcon;
