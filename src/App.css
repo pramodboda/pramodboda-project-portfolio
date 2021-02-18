@@ -5,11 +5,13 @@
   
 }
 html{scroll-behavior: smooth;}
+
 html, body{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
 }
 
 body{
@@ -44,15 +46,13 @@ h6{
 }
 
 .pramodize-loading{
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100%;
   height: 100vh;
-
   transition: all 1s ease-in-out;
-  
 }
 
 .wrapper{
@@ -63,5 +63,11 @@ h6{
 @media screen and (max-width: 1024px){
   .wrapper{
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 414px){
+  h4{
+    font-size: 1.5em;
   }
 }

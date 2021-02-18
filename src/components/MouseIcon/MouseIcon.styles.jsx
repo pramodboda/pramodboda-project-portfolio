@@ -6,14 +6,14 @@ export const ScrollDownIcon = styled.div`
     margin: 0 auto;
     width: 23px;
     height: 32px;
-    bottom: 20px;
+    bottom: 30px;
 ` 
  export const MouseBody = styled.div`
     width: 3px;
     padding: 5px 8px;
     height: 18px;
     border: 2px solid #1d1d1d;
-    border-radius: 20px;
+    border-radius: 15px;
     opacity: 0.75;
     box-sizing: content-box;
  `
@@ -29,7 +29,6 @@ export const ScrollDownIcon = styled.div`
     animation-direction: alternate;
 
     @keyframes scrollAni {
-        
         0% { transform: translateY(0); opacity: 1; }
         100% { transform: translateY(8px); opacity: 0;}
     }

@@ -7,7 +7,7 @@ const Footnote = () => {
     let currentYear = presentDate.getFullYear()
     return(
         <FootnoteContainer>
-        <FootnoteContent>@{currentYear} Pramodize Studios. All rights reserved.</FootnoteContent>
+        <FootnoteContent>@{currentYear} Pramodize Studio. All rights reserved.</FootnoteContent>
     </FootnoteContainer>
     )
 }

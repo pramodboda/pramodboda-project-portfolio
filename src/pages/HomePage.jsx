@@ -5,10 +5,14 @@ import GeneralSkills from '../components/GeneralSkills/GeneralSkills.component';
 import Footer from '../components/Footer/Footer.component';
 
 
+
 const HomePage = () => (
     <div>
     <HeroSection></HeroSection>
-    <div className="wrapper"><GeneralSkills></GeneralSkills></div>
+
+    <div className="wrapper">
+        <GeneralSkills></GeneralSkills>
+    </div>
     <Footer></Footer>
     </div>
 );
